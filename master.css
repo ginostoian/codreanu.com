@@ -30,6 +30,7 @@ html, body {
 .top-contact-info-right {
   float: right;
   margin-right: 8%;
+  color: white;
 }
 
 .top-contact-icons {
@@ -49,6 +50,27 @@ html, body {
 
 .moved {
   padding-left: 20px;
+}
+
+@media screen and (max-width: 375px) {
+  .top-contact-info{
+    font-size: 0.6em;
+    color: green;
+  }
+
+  .first-hr {
+    margin-top: 9%;
+  }
+
+  .top-contact-info-right {
+    float: left;
+    margin-left: 8%;
+    padding-top: 1%;
+  }
+
+  .top-contact-icons {
+    font-size: 12px !important;
+  }
 }
 
     /* Navigation & Logo */
@@ -92,6 +114,12 @@ a:hover {
   opacity: 1;
   width: 70px;
   heigth:70px;
+}
+
+@media screen and (max-width: 375px) {
+  .nav {
+    display:none;
+  }
 }
 
 
