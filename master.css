@@ -63,10 +63,18 @@ html, body {
     margin-top: 9%;
   }
 
+  .top-contact-info-left {
+    margin-left: 5%;
+  }
+
   .top-contact-info-right {
     float: left;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-top: 1%;
+  }
+
+  .moved {
+    padding-left: 80px;
   }
 
   .top-contact-icons {
@@ -124,6 +132,11 @@ a:hover {
 
   .logo {
     margin-left: 2.5em;
+}
+
+  .hero-logo {
+    width: 50px;
+    height:50px;
   }
 }
 
@@ -177,11 +190,18 @@ a:hover {
   color: #00E1C1;
 }
 
+@media screen and (max-width: 375px) {
+  .hero-call-2-action {
+    margin-top: 13%;
+  }
+}
+
 /* About Us */
 
 #about-us {
   margin-top: 100px;
   height: 460px;
+  margin-bottom: 250px;
 }
 
 .about-us-left-info {
@@ -254,4 +274,17 @@ a:hover {
   .about-us-call-2-action {
     width: 55%;
   }
+}
+
+/* Prices Section */
+
+.prices-hero {
+  background-image: url("Assets/Photos/servicii.jpg");
+  background-repeat: no-repeat;
+  height: 34em;
+}
+
+.prices-container {
+  padding-left: 0;
+  padding-right: 0;
 }
