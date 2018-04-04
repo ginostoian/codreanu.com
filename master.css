@@ -118,7 +118,11 @@ a:hover {
 
 @media screen and (max-width: 375px) {
   .nav {
-    display:none;
+    display: none;
+  }
+
+  .logo {
+    margin-left: 2.5em;
   }
 }
 
@@ -226,4 +230,28 @@ a:hover {
 
 .about-us-call-2-action:hover a{
   color: #00E1C1;
+}
+
+@media screen and (max-width: 375px) {
+  .about-us-h2 {
+    font-size: 1.7em;
+  }
+  .about-us-img {
+    display: none;
+  }
+
+  .about-us-right.col {
+    flex-grow: 0;
+  }
+
+  .about-us-left-info {
+    width: 100% !important;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .about-us-call-2-action {
+    width: 80%;
+  }
 }
