@@ -236,12 +236,10 @@ a:hover {
   .about-us-h2 {
     font-size: 1.7em;
   }
-  .about-us-img {
-    display: none;
-  }
 
   .about-us-right.col {
     flex-grow: 0;
+    display: none;
   }
 
   .about-us-left-info {
@@ -249,9 +247,10 @@ a:hover {
     font-size: 0.8em;
     text-align: center;
     margin: 0 auto;
+    float: none;
   }
 
   .about-us-call-2-action {
-    width: 80%;
+    width: 55%;
   }
 }
