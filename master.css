@@ -266,7 +266,7 @@ a:hover {
   .about-us-left-info {
     width: 100% !important;
     font-size: 0.8em;
-    text-align: center;
+    text-align:left;
     margin: 0 auto;
     float: none;
   }
