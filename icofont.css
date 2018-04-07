@@ -1,0 +1,276 @@
+/**
+ * @package IcoFont by ThemeHunt - https://themehunt.com
+ * @version 1.0.0 Beta
+ * @author IcoFont http://icofont.com
+ * @copyright Copyright (c) 2018 IcoFont
+ * @license - http://icofont.com/license/
+*/
+
+@font-face {
+    font-family: 'icofont';
+    src: url('Assets/fonts/icofont.eot?v=1.0.0-beta');
+    src: url('Assets/fonts/icofont.eot?v=1.0.0-beta#iefix') format('embedded-opentype'),
+    url('Assets/fonts/icofont.ttf?v=1.0.0-beta') format('truetype'),
+    url('Assets/fonts/icofont.woff?v=1.0.0-beta') format('woff'),
+    url('Assets/fonts/icofont.svg?v=1.0.0-beta#icofont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.icofont {
+    font-family: 'IcoFont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icofont-air-balloon:before {
+	content: "\eecf";
+}
+.icofont-airplane-alt:before {
+	content: "\eed0";
+}
+.icofont-airplane:before {
+	content: "\eed1";
+}
+.icofont-ambulance-crescent:before {
+	content: "\eed2";
+}
+.icofont-ambulance-cross:before {
+	content: "\eed3";
+}
+.icofont-articulated-truck:before {
+	content: "\eed4";
+}
+.icofont-auto-rickshaw:before {
+	content: "\eed5";
+}
+.icofont-bicycle-alt-1:before {
+	content: "\eed6";
+}
+.icofont-bicycle-alt-2:before {
+	content: "\eed7";
+}
+.icofont-bull-dozer:before {
+	content: "\eed8";
+}
+.icofont-bus-alt-1:before {
+	content: "\eed9";
+}
+.icofont-bus-alt-2:before {
+	content: "\eeda";
+}
+.icofont-bus-alt-3:before {
+	content: "\eedb";
+}
+.icofont-cable-car:before {
+	content: "\eedc";
+}
+.icofont-car-alt-1:before {
+	content: "\eedd";
+}
+.icofont-car-alt-2:before {
+	content: "\eede";
+}
+.icofont-car-alt-3:before {
+	content: "\eedf";
+}
+.icofont-car-alt-4:before {
+	content: "\eee0";
+}
+.icofont-concrete-mixer:before {
+	content: "\eee1";
+}
+.icofont-delivery-time:before {
+	content: "\eee2";
+}
+.icofont-excavator:before {
+	content: "\eee3";
+}
+.icofont-fast-delivery:before {
+	content: "\eee4";
+}
+.icofont-fire-truck-alt:before {
+	content: "\eee5";
+}
+.icofont-fire-truck:before {
+	content: "\eee6";
+}
+.icofont-fork-lift:before {
+	content: "\eee7";
+}
+.icofont-free-delivery:before {
+	content: "\eee8";
+}
+.icofont-golf-cart:before {
+	content: "\eee9";
+}
+.icofont-helicopter:before {
+	content: "\eeea";
+}
+.icofont-motor-bike-alt:before {
+	content: "\eeeb";
+}
+.icofont-motor-bike:before {
+	content: "\eeec";
+}
+.icofont-motor-biker:before {
+	content: "\eeed";
+}
+.icofont-oil-truck:before {
+	content: "\eeee";
+}
+.icofont-police-car:before {
+	content: "\eeef";
+}
+.icofont-rickshaw:before {
+	content: "\eef0";
+}
+.icofont-rocket-alt-1:before {
+	content: "\eef1";
+}
+.icofont-rocket-alt-2:before {
+	content: "\eef2";
+}
+.icofont-sail-boat:before {
+	content: "\eef3";
+}
+.icofont-scooter:before {
+	content: "\eef4";
+}
+.icofont-sea-plane:before {
+	content: "\eef5";
+}
+.icofont-ship-alt:before {
+	content: "\eef6";
+}
+.icofont-speed-boat:before {
+	content: "\eef7";
+}
+.icofont-taxi:before {
+	content: "\eef8";
+}
+.icofont-tow-truck:before {
+	content: "\eef9";
+}
+.icofont-tractor:before {
+	content: "\eefa";
+}
+.icofont-traffic-light:before {
+	content: "\eefb";
+}
+.icofont-train-line:before {
+	content: "\eefc";
+}
+.icofont-train-steam:before {
+	content: "\eefd";
+}
+.icofont-tram:before {
+	content: "\eefe";
+}
+.icofont-truck-alt:before {
+	content: "\eeff";
+}
+.icofont-truck-loaded:before {
+	content: "\ef00";
+}
+.icofont-truck:before {
+	content: "\ef01";
+}
+.icofont-van-alt:before {
+	content: "\ef02";
+}
+.icofont-van:before {
+	content: "\ef03";
+}
+.icofont-yacht:before {
+	content: "\ef04";
+}
+
+/*Font size*/
+.icofont-lg {
+    font-size: 1.33333333em;
+    line-height: .75em;
+    vertical-align: -15%
+}
+
+.icofont-2x {
+    font-size: 2em
+}
+
+.icofont-3x {
+    font-size: 3em
+}
+
+.icofont-4x {
+    font-size: 4em
+}
+
+.icofont-5x {
+    font-size: 5em
+}
+
+.icofont-fw {
+    display: inline-block;
+    width: 1.28571429em;
+    text-align: center
+}
+
+/*Fixed Width Icons*/
+.icofont-fw {
+    width: 1.28571429em;
+    text-align: center;
+}
+
+/*Custom list icons*/
+.icofont-ul {
+    padding-left: 0;
+    margin-left: 2.14285714em;
+    list-style-type: none;
+}
+.icofont-ul>li {
+    position: relative;
+}
+.icofont-li {
+    position: absolute;
+    left: -2.14285714em;
+    width: 2.14285714em;
+    top: .14285714em;
+    text-align: center;
+}
+
+/*Animation*/
+.icofont-rotate {
+    display: inline-block;
+    -webkit-animation: icofont-rotate 2s infinite linear;
+    animation: icofont-rotate 2s infinite linear
+}
+
+@-webkit-keyframes icofont-rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
+
+@keyframes icofont-rotate {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100% {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg)
+    }
+}
