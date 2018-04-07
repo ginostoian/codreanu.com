@@ -142,12 +142,17 @@ a:hover {
   }
 
   .logo {
-    margin-left: 2.5em;
+    margin-left: 1.2em;
 }
 
+  .logo-text {
+    font-size: 1.2em;
+  }
+
   .hero-logo {
-    width: 50px;
-    height:50px;
+    width: 48px;
+    height:48px;
+    vertical-align: middle;
   }
 }
 
