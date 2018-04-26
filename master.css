@@ -225,6 +225,10 @@ a:hover {
   .hero-call-2-action {
     margin-top: 13%;
   }
+
+  .text-overlay {
+    width: 100%;
+  }
 }
 
 /* About Us */
