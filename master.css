@@ -395,4 +395,14 @@ a:hover {
   .prices-hr {
     width: 15%;
   }
+
+  .price {
+    float: none;
+    font-size: 0.6em;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: block;
+    text-align: center;
+    margin-top: 20%;
+  }
 }
