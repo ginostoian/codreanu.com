@@ -12,9 +12,17 @@ html, body {
 /* HOME SECTION */
 
 #home {
-  background-image: url("Assets/Photos/main-hero.jpg");
+  background-image: url("Assets/Photos/truck.jpeg");
   background-repeat: no-repeat;
   height: 100%;
+  background-size:cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 375px) { /* 375px iPhone X */
+  #home {
+    background-position:center;
+  }
 }
     /* Top Contact Info */
 .top-contact-info {
@@ -167,6 +175,13 @@ a:hover {
   text-align: center;
 }
 
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 35%;
+  margin: 0 auto;
+  text-shadow: 0 1px 0 black;
+}
+
 .second-hr {
   border: 0;
   height: 2px;
@@ -186,7 +201,7 @@ a:hover {
   border: 2px solid #00E1C1;
   width: 220px;
   text-align: center;
-  margin: 3% auto 0 auto;
+  margin: 4% auto 0 auto;
   border-radius: 30px;
   padding : 17px 9px;
   background-color: #00E1C1;
