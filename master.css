@@ -354,8 +354,19 @@ a:hover {
   /* margin-left: 50px; */
 }
 
+
 .prices-info-p {
   margin-bottom: 100px;
+}
+
+.price {
+  float: right;
+  /* color: #00E1C1; */
+  margin-top: 2.8%;
+  border: 1px solid #00E1C1;
+  border-radius: 35%;
+  background-color: #00E1C1;
+  padding:10px;
 }
 
 @media screen and (max-width: 375px) { /* iPhone X 375px */
