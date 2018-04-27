@@ -364,9 +364,9 @@ a:hover {
   /* color: #00E1C1; */
   margin-top: 2.8%;
   border: 1px solid #00E1C1;
-  border-radius: 35%;
+  border-radius: 30px;
   background-color: #00E1C1;
-  padding:10px;
+  padding:12px 14px;
 }
 
 .prices-info-price-mobile {
