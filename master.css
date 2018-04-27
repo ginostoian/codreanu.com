@@ -402,12 +402,6 @@ a:hover {
 
   .price {
     float: none;
-    /* font-size: 0.6em;
-    margin-left: 15%;
-    margin-right: 15%;
-    display: block;
-    text-align: center;
-    margin-top: 20%; */
     display: none;
   }
 
@@ -416,9 +410,9 @@ a:hover {
     border: 1px solid #00E1C1;
     border-radius: 30px;
     background-color: #00E1C1;
-    padding:12px 12px;
+    padding:11px 14px;
     width: 70%;
     text-align: center;
-    margin-top: -70px;
+    margin: -70px auto 50px auto;
   }
 }
