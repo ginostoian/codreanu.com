@@ -369,6 +369,10 @@ a:hover {
   padding:10px;
 }
 
+.prices-info-price-mobile {
+  display:none;
+}
+
 @media screen and (max-width: 375px) { /* iPhone X 375px */
   .prices-h2 {
     font-size: 1.7em;
@@ -398,11 +402,23 @@ a:hover {
 
   .price {
     float: none;
-    font-size: 0.6em;
+    /* font-size: 0.6em;
     margin-left: 15%;
     margin-right: 15%;
     display: block;
     text-align: center;
-    margin-top: 20%;
+    margin-top: 20%; */
+    display: none;
+  }
+
+  .prices-info-price-mobile {
+    display: block;
+    border: 1px solid #00E1C1;
+    border-radius: 30px;
+    background-color: #00E1C1;
+    padding:12px 12px;
+    width: 70%;
+    text-align: center;
+    margin-top: -70px;
   }
 }
