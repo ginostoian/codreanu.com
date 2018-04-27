@@ -416,3 +416,23 @@ a:hover {
     margin: -70px auto 50px auto;
   }
 }
+
+/* Gallery Section */
+
+  #gallery .row {
+    margin-bottom: 32px;
+  }
+
+  .gallery-h2 {
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .gallery-hr {
+    border: 0;
+    height: 2px;
+    background-color: #00E1C1;
+    width: 6%;
+    /* float:left; */
+    margin-bottom: 70px;
+  }
