@@ -347,13 +347,14 @@ a:hover {
 .prices-info-h5 {
   display: inline;
   /* margin-bottom: 100px; */
+  margin-left: 15px;
 
 }
 .prices-info-container {
   margin-bottom: 20px;
   /* margin-left: 50px; */
+  /* border: 1px solid black; */
 }
-
 
 .prices-info-p {
   margin-bottom: 100px;
@@ -363,11 +364,11 @@ a:hover {
   float: right;
   /* color: #00E1C1; */
   margin-top: 2.8%;
-  border: 1px solid #00E1C1;
+  border: 1px solid #353736;
   border-radius: 30px;
-  background-color: #00E1C1;
+  background-color: #fff;
   padding:12px 14px;
-  color: white;
+  color: #000;
 }
 
 .prices-info-price-mobile {
@@ -445,11 +446,200 @@ a:hover {
   /* Map Section */
   #map {
     margin-bottom:-7px;
+    position: relative;
+    padding-bottom: 33%;
+    height: 0;
+    overflow: hidden;
+  }
+
+  #map iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
   }
 
   /* Contact Section */
 
     #contact {
-      height: 500px;
+      min-height: 500px;
       background-color: #353736;
+      color: white;
+      display:flex;
+    }
+
+        /* Contact Col 1 */
+
+    .contact-1 {
+      margin-left: 150px;
+      margin-top: 8%;
+      color: white;
+    }
+
+    .contact-logo {
+      width: 50px;
+      height: 50px;
+    }
+
+    .contact-logo-text {
+      color: white;
+      padding-left: 10px;
+    }
+
+    .contact-logo-scoala {
+      font-weight: 100;
+    }
+
+    .contact-logo-line {
+      font-weight: 100;
+    }
+
+    .contact-logo-info {
+      margin-top: 25px;
+      font-size: 0.9em;
+    }
+
+        /* Contact Col 2 */
+
+    .contact-2 {
+      margin-top: 8.5%;
+      margin-left: 50px;
+    }
+
+    .quick-links-hr {
+      border: 0;
+      height: 2px;
+      background-color: #00E1C1;
+      width: 20px;
+      margin-left: 0%;
+      margin-top: 1%;
+    }
+
+    .quick-links-ul {
+      list-style: none;
+      margin-top: 20px;
+      margin-left: 0%;
+    }
+
+    .quick-links-ul .quick-links-li {
+      margin-left: -14%;
+      margin-top: 10px;
+      font-weight: 100;
+    }
+
+    .quick-links-li i {
+      vertical-align: middle;
+      padding-right: 10px;
+      color: #00E1C1;
+    }
+
+        /* Contact Col 3 */
+
+    .contact-3 {
+      margin-top: 8.5%;
+      margin-left: -10%;
+    }
+
+    .linkuri-utile-hr {
+      border: 0;
+      height: 2px;
+      background-color: #00E1C1;
+      width: 20px;
+      margin-left: 0%;
+      margin-top: 1%;
+    }
+
+    .linkuri-utile-ul {
+      list-style: none;
+      margin-top: 20px;
+      margin-left: 0%;
+    }
+
+    .linkuri-utile-ul .linkuri-utile-li {
+      margin-left: -14%;
+      margin-top: 10px;
+      font-weight: 100;
+    }
+
+    .linkuri-utile-li i {
+      vertical-align: middle;
+      padding-right: 10px;
+      color: #00E1C1;
+    }
+
+        /* Contact Col 4 */
+
+    .contact-4 {
+      margin-top: 8.5%;
+      margin-left: -10%;
+    }
+
+    .contact-contact-hr {
+      border: 0;
+      height: 2px;
+      background-color: #00E1C1;
+      width: 20px;
+      margin-left: 0%;
+      margin-top: 1%;
+    }
+
+    .contact-contact-ul {
+      list-style: none;
+      margin-top: 20px;
+      margin-left: 0%;
+    }
+
+    .contact-contact-ul .contact-contact-li {
+      margin-left: -12%;
+      margin-top: 10px;
+      font-weight: 100;
+    }
+
+    .contact-contact-li i {
+      vertical-align: middle;
+      padding-right: 10px;
+      color: #00E1C1;
+      font-size: 0.99em;
+
+    }
+
+    .contact-contact-li-li {
+      font-weight: 100;
+      font-size: 0.9em;
+    }
+
+        /* Copyright & Credits */
+
+    .credit {
+      margin-top: 6.5%;
+      background-color: #18181a;
+      height: 30px;
+    }
+
+    .copyright {
+      font-weight: 100;
+      font-size: 0.8em;
+      margin: auto 0 0 5%;
+    }
+
+    .copyright i {
+      color: #00E1C1;
+      vertical-align: middle;
+      font-size: 1.2em;
+    }
+
+    .developer {
+      float: right;
+      margin-right: 5%;
+      font-weight: 100;
+    }
+
+    .developer i {
+      color: #00E1C1;
+      vertical-align: middle;
+    }
+
+    .developer-name {
+      font-style: oblique;
     }
