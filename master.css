@@ -242,7 +242,7 @@ a:hover {
 .about-us-left-info {
   float: left;
   width: 50%;
-  padding: 0% 15% 10% 15%;
+  padding: 0% 12% 10% 15%;
   text-align:left;
 }
 
@@ -367,6 +367,7 @@ a:hover {
   border-radius: 30px;
   background-color: #00E1C1;
   padding:12px 14px;
+  color: white;
 }
 
 .prices-info-price-mobile {
@@ -419,6 +420,10 @@ a:hover {
 
 /* Gallery Section */
 
+  #gallery {
+    margin-bottom: 80px;
+  }
+
   #gallery .row {
     margin-bottom: 32px;
   }
@@ -436,3 +441,15 @@ a:hover {
     /* float:left; */
     margin-bottom: 70px;
   }
+
+  /* Map Section */
+  #map {
+    margin-bottom:-7px;
+  }
+
+  /* Contact Section */
+
+    #contact {
+      height: 500px;
+      background-color: #353736;
+    }
