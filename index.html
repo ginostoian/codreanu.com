@@ -4,6 +4,10 @@
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Scoala Profesionala Auto Codreanu Brasov">
+    <meta name="keywords" content="codreanu, scoala, scoala auto, autobuz, autocar, scoala profesionala auto, auto codreanu, permis, categoria D, categoria C, categoria CE, permis profesional, auto-utilitara">
+    <meta name="author" content="Gino Stoian">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Google Font -->
@@ -15,7 +19,13 @@
       rel="stylesheet">
       <!-- Master CSS -->
     <link rel="stylesheet" href="master.css">
-    <title>Scoala de Soferi Auto Codreanu</title>
+    <!-- jQuery -->
+    <script
+			  src="https://code.jquery.com/jquery-3.3.1.min.js"
+			  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			  crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="Assets/Photos/camion-ico.ico">
+    <title>Scoala Profesionala de Soferi Auto Codreanu</title>
   </head>
   <body>
 
@@ -36,26 +46,27 @@
       <div class="homeHero">
         <!-- Logo -->
         <div class="logo">
-          <img class ="hero-logo" src="Assets/Logo/codreanu-logo.png" alt="Scoala de Soferi Auto Codreanu Logo">
+          <img class ="hero-logo" src="Assets/Logo/scoala-codreanu-logo.png" alt="Scoala de Soferi Profesionisti Auto Codreanu Logo">
           <span class="logo-text">CODREANU <span class="logo-text-line">|</span> <span class="logo-text-scoala">Școală de Șoferi</span></span>
         </div>
         <!-- Main Nav Over Hero -->
         <div class="nav float-right">
           <ul>
-            <li><a href="">Contact</a></li>
-            <li><a href="">Galerie</a></li>
-            <li><a href="">Preturi</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Utile</a></li>
+            <li><a href="#gallery">Galerie</a></li>
+            <li><a href="#prices">Preturi</a></li>
             <li><a href="#about-us">Despre Noi</a></li>
-            <li><a class="active-link" href="">Home</a></li>
+            <li><a class="active-link" href="#home">Home</a></li>
           </ul>
         </div>
         <!-- Hero Content -->
         <div class="hero-content">
           <div class="text-overlay">
-            <p class="hero-content-1">Our students drive better</p>
+            <p class="hero-content-1">Elevii nostri conduc mai bine</p>
             <hr class="second-hr">
-            <h1 class="hero-content-2">Let's Get You On The Road</h1>
-            <p class="hero-content-3">Ready to start driving? You're in safe hands. Find out more and book online.</p>
+            <h1 class="hero-content-2">Fii mai bun. Fii profesionist!</h1>
+            <p class="hero-content-3">Pregatit sa devii profesionist? Esti pe maini sigure cu noi. Suna-ne pentru a afla mai multe detalii.</p>
         </div>
           <div class="hero-call-2-action">
             <a href="#">
@@ -72,8 +83,8 @@
           <div class="about-us-left-info col">
             <h2 class="about-us-h2">Invata sa conduci cu noi!</h2>
             <hr class="about-us-hr">
-            <p class="about-us-p1">Driving School is family oriented, recommended by most of our students even though we did not advertise much.</p>
-            <p class="about-us-p2">All of our instructors are trained to give, you the customer, complete satisfaction in your driving experience so that you can handle driving on your own, with skill, safety, caution, and respect for all other drivers and pedestrians. We are patient and totally professional to handle your goals of earning your driver's license. Service, Security, and Success is what we are all about. Viva Driving School looks forward to serving you.</p>
+            <p class="about-us-p1"></p>
+            <p class="about-us-p2">Scoala de soferi Codreanu te instruieste in vederea obtinerii permisului de conducere categoriile C, CE, D. Si tu poti deveni sofer cu adevarat urmand cursurile oferite de o scoala de soferi profesionista. A gasi o scoala de soferi este usor, a alege este un pic mai greu, dorinta ta fiind servicii de calitate la preturi mici. Noi iti venim in intampinare exact cu ceea ce tu cauti. Scopul scolii de soferi Codreanu este de a oferi servicii de cea mai inalta calitate, astfel incat cursantii sa fie foarte bine pregatiti, atat teoretic cat si practic, sa poata obtine permisul de conducere si sa conduca fara emotii intr-un trafic din ce in ce mai aglomerat.</p>
             <div class="about-us-call-2-action">
               <a href="#contact">
                 <span>Contacteaza-ne</span>
@@ -81,7 +92,7 @@
             </div>
           </div>
           <div class="about-us-right col">
-            <img src="Assets/Photos/lorry-mountain.png" class="about-us-img" alt="">
+            <img src="Assets/Photos/camion-autobuz.png" class="about-us-img" alt="Sofer Profesionist Conduce Camion prin Munti">
           </div>
         </div>
       </div>
@@ -92,7 +103,7 @@
       <div class="container-fluid">
         <div class="row no-gutters">
           <div class="col-12 prices-heading">
-            <h2 class="prices-h2">Pregatim soferi pentru toate categoriile</h2>
+            <h2 class="prices-h2">Pregatim soferii pentru a deveni profesionisti.</h2>
             <hr class="prices-hr">
             <p class="prices-p">Auto Codreanu are cel mai mare procentaj de promovabilitate din Brasov.  Dar nu ne crede pe cuvant, vino sa te convingi!</p>
           </div>
@@ -121,7 +132,7 @@
                 <i class="icofont icofont-bus-alt-3 prices-icon-description"></i>
                 <h5 class="prices-info-h5">Categoria C + CE + D <span class="price">3500 LEI</span></h5>
               </div>
-              <p class="prices-info-p">Oferta speciala oferita de Scoala Codreanu prin care elevii scolii vor dobandi carnet de conducere pentru categoriile C, D si CE + DE la un pret mai mic.</p>
+              <p class="prices-info-p">Oferta speciala oferita de Scoala Codreanu pentru cursantii acesteia, cu ajutorul careia vor dobandi carnet de conducere pentru categoriile C, D si CE la un pret redus.</p>
               <span class="prices-info-price-mobile">3500 LEI</span>
             </div>
           </div>
@@ -130,34 +141,34 @@
     </section>
     <!-- Gallery Section -->
     <section id="gallery">
-      <h2 class="gallery-h2">Parc Auto</h2>
+      <h2 class="gallery-h2">Galerie Auto</h2>
       <hr class="gallery-hr">
       <div class="container">
         <div class="row">
           <div class="col-4">
-            <img src="Assets/Cars/truck-1-desktop.png" alt="Camion Scoala de Soferi Codreanu">
+            <img src="Assets/Cars/camion-1-desktop.png" alt="Camion Scoala de Soferi Codreanu">
           </div>
 
           <div class="col-4">
-            <img src="Assets/Cars/truck-2-desktop.png" alt="Camion Scoala de Soferi Codreanu">
+            <img src="Assets/Cars/camion-2-desktop.png" alt="Camion Scoala de Soferi Codreanu">
           </div>
 
           <div class="col-4">
-            <img src="Assets/Cars/truck-3-desktop.png" alt="Camion Scoala de Soferi Codreanu">
+            <img src="Assets/Cars/camion-3-desktop.png" alt="Camion Scoala de Soferi Codreanu">
           </div>
         </div>
 
         <div class="row">
           <div class="col-4">
-            <img src="Assets/Cars/bus-1-desktop.png" alt="Autocar / Autobuz Scoala de Soferi Codreanu">
+            <img src="Assets/Cars/autobuz-1-desktop.png" alt="Autocar / Autobuz Scoala de Soferi Codreanu">
           </div>
 
           <div class="col-4">
-            <img src="Assets/Cars/bus-3-desktop.png" alt="Autocar / Autobuz Scoala de Soferi Codreanu">
+            <img src="Assets/Cars/autobuz-3-desktop.png" alt="Autocar / Autobuz Scoala de Soferi Codreanu">
           </div>
 
           <div class="col-4">
-            <img src="Assets/Cars/bus-1-desktop.png" alt="Autocar / Autobuz Scoala de Soferi Codreanu">
+            <img src="Assets/Cars/autobuz-1-desktop.png" alt="Autocar / Autobuz Scoala de Soferi Codreanu">
           </div>
         </div>
       </div>
@@ -171,9 +182,9 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-3 contact-1">
-            <img src="Assets/Logo/codreanu-logo.png" alt="Scoala Profesionala De Soferi Codreanu" class="contact-logo">
-            <span class="contact-logo-text">CODREANU <span class="contact-logo-line">|</span> <span class="contact-logo-scoala">Școală de Șoferi</span></span>
-            <p class="contact-logo-info">Driving School is family oriented, recommended by most of our students even though we did not advertise much.
+            <a href="#home"><img src="Assets/Logo/scoala-codreanu-logo.png" alt="Scoala Profesionala De Soferi Codreanu" class="contact-logo">
+            <span class="contact-logo-text">CODREANU <span class="contact-logo-line">|</span> <span class="contact-logo-scoala">Școală de Șoferi</span></span><a>
+            <p class="contact-logo-info">Scoala de soferi Codreanu te instruieste in vederea obtinerii permisului de conducere categoriile C, CE, D. Si tu poti deveni sofer cu adevarat urmand cursurile oferite de o scoala de soferi profesionista.
             </p>
           </div>
 
@@ -181,10 +192,10 @@
             <span class="quick-links-header">Link-uri Rapide</span>
             <hr class="quick-links-hr">
             <ul class="quick-links-ul">
-              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#">Home<a></li>
-              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#">Despre Noi<a></li>
-              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#">Preturi<a></li>
-              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#">Galerie<a></li>
+              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#home">Home<a></li>
+              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#about-us">Despre Noi<a></li>
+              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#prices">Preturi<a></li>
+              <li class="quick-links-li"><i class="material-icons">keyboard_arrow_right</i><a href="#gallery">Galerie<a></li>
               <li class="quick-links-li"><a href="tel:0758879223"><i class="material-icons">keyboard_arrow_right</i>Contact<a></li>
             </ul>
           </div>
@@ -226,5 +237,18 @@
         </div>
       </div>
     </section>
+
+    <!-- Smooth Scrolling Effect -->
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+  document.querySelector(this.getAttribute('href')).scrollIntoView({
+    behavior: 'smooth'
+    });
+  });
+});
+</script>
   </body>
 </html>

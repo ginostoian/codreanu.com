@@ -12,7 +12,7 @@ html, body {
 /* HOME SECTION */
 
 #home {
-  background-image: url("Assets/Photos/truck.jpeg");
+  background-image: url("Assets/Photos/camion.jpeg");
   background-repeat: no-repeat;
   height: 100%;
   background-size:cover;
@@ -176,10 +176,15 @@ a:hover {
 }
 
 .text-overlay {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.14);
   width: 35%;
   margin: 0 auto;
-  text-shadow: 0 1px 0 black;
+  text-shadow: 0 2px 0 black;
+}
+
+h1 {
+  /* font-style: oblique; */
+  /* font-weight: 100; */
 }
 
 .second-hr {
@@ -195,6 +200,8 @@ a:hover {
 
 .hero-content-3 {
   margin-top: 2.5em;
+  font-weight: 100;
+  text-shadow: 0.2px 0.5px;
 }
 
 .hero-call-2-action {
@@ -234,7 +241,7 @@ a:hover {
 /* About Us */
 
 #about-us {
-  margin-top: 100px;
+  padding-top: 100px;
   height: 460px;
   margin-bottom: 180px;
 }
@@ -427,6 +434,10 @@ a:hover {
 
   #gallery .row {
     margin-bottom: 32px;
+  }
+
+  #gallery .row .col-4 img {
+    box-shadow: 10px 10px 5px grey;
   }
 
   .gallery-h2 {
