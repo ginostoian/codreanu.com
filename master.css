@@ -288,6 +288,11 @@ h1 {
 }
 
 @media screen and (max-width: 375px) { /* 375px iPhone x */
+
+  #about-us {
+    margin-bottom: 30px;
+  }
+
   .about-us-h2 {
     font-size: 1.7em;
   }
@@ -482,7 +487,7 @@ h1 {
   /* Contact Section */
 
     #contact {
-      min-height: 500px;
+      min-height: 30%;
       background-color: #353736;
       color: white;
       display:flex;
@@ -661,4 +666,59 @@ h1 {
 
     .developer-name {
       font-style: oblique;
+    }
+
+    @media screen and (max-width: 375px) {
+      #contact {
+        font-size: 0.7em;
+      }
+
+      .contact-1 {
+        margin-left: 35px;
+        margin-top: 50px;
+      }
+
+      .contact-logo {
+        width: 20px;
+        height: 20px;
+      }
+
+      .contact-2 {
+        margin: 8.5% 25%;
+      }
+
+      .contact-3 {
+        margin: 0 25%;
+      }
+
+      .contact-4 {
+        margin: 8.5% 25%;
+      }
+
+      .quick-links-ul {
+        margin-left: -18%;
+      }
+
+      .linkuri-utile-ul {
+        margin-left: -18%;
+      }
+
+      .contact-contact-ul {
+        margin-left: -9%;
+      }
+    }
+
+    .credit {
+      font-size: 1
+    }
+
+    .copyright {
+      float: left;
+      padding-top: 3%;
+      margin: 0;
+    }
+
+    .developer {
+      margin-right: 0;
+      padding-top: 1.5%;
     }
