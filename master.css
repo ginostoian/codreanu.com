@@ -242,30 +242,22 @@ h1 {
 
 #about-us {
   padding-top: 100px;
-  height: 460px;
-  margin-bottom: 180px;
+  min-height: 60%;
 }
 
 .about-us-left-info {
-  float: left;
   width: 50%;
-  padding: 0% 12% 10% 15%;
+  padding: 0% 12% 5% 15%;
   text-align:left;
 }
 
 .about-us-img {
-  float:right;
-  /* object-fit: cover; */
-  height: auto;
-  max-width: 100%
-  width: 90%;
-  /* vertical-align: middle; */
+  max-width: 100%;
   padding: 0 10% 0 0;
 }
 
 .about-us-right {
   display: inline;
-  /* padding-bottom: 60px; */
 }
 
 .about-us-hr {
@@ -353,14 +345,11 @@ h1 {
 
 .prices-info-h5 {
   display: inline;
-  /* margin-bottom: 100px; */
   margin-left: 15px;
 
 }
 .prices-info-container {
   margin-bottom: 20px;
-  /* margin-left: 50px; */
-  /* border: 1px solid black; */
 }
 
 .prices-info-p {
@@ -369,7 +358,6 @@ h1 {
 
 .price {
   float: right;
-  /* color: #00E1C1; */
   margin-top: 2.8%;
   border: 1px solid #353736;
   border-radius: 30px;
@@ -416,9 +404,9 @@ h1 {
 
   .prices-info-price-mobile {
     display: block;
-    border: 1px solid #00E1C1;
+    border: 1px solid #353736;
     border-radius: 30px;
-    background-color: #00E1C1;
+    background-color: #fff;
     padding:11px 14px;
     width: 70%;
     text-align: center;
@@ -436,7 +424,7 @@ h1 {
     margin-bottom: 32px;
   }
 
-  #gallery .row .col-4 img {
+  #gallery .row .col-sm-4 img {
     box-shadow: 10px 10px 5px grey;
   }
 
@@ -450,7 +438,6 @@ h1 {
     height: 2px;
     background-color: #00E1C1;
     width: 6%;
-    /* float:left; */
     margin-bottom: 70px;
   }
 
@@ -470,6 +457,12 @@ h1 {
     width: 100% !important;
     height: 100% !important;
   }
+
+@media screen and (max-width: 375px) {   /* iPhone X 375px */
+  #map {
+    height: 250px;
+  }
+}
 
   /* Contact Section */
 
