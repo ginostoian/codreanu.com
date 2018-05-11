@@ -146,18 +146,7 @@ a:hover {
 
 @media screen and (max-width: 414px) { /* 375px iPhone x - 414px iPhone 6-8 plus */
   .nav {
-    /* display: none; */
-    font-size: 0.66em;
-    margin-top: 10px;
-  }
-
-  .nav ul {
-    margin-left: -20px;
-    margin-right: -200px;
-  }
-
-  .nav ul li {
-    padding: 1.18em;
+    display: none;
   }
 
   .logo {
