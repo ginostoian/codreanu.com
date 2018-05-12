@@ -144,25 +144,9 @@ a:hover {
   heigth:65px;
 }
 
-@media screen and (max-width: 414px) { /* 375px iPhone x - 414px iPhone 6-8 plus */
-  .nav {
-    display: none;
-  }
 
-  .logo {
-    margin-left: 1.2em;
-}
 
-  .logo-text {
-    font-size: 1.2em;
-  }
 
-  .hero-logo {
-    width: 48px;
-    height:48px;
-    vertical-align: middle;
-  }
-}
 
 
     /* Hero Content */
@@ -724,5 +708,80 @@ h1 {
     .developer {
       margin-right: 0;
       padding-top: 1.5%;
+    }
+  }
+
+  @media screen and (max-width: 1250px) and (min-width: 415px) {
+    .nav {
+      margin-right: 2%;
+    }
+  }
+
+
+  @media screen and (max-width: 1200px) and (min-width: 415px) {
+    .nav,.logo {
+      font-size: 0.9em;
+    }
+
+    .nav {
+      margin-right: 1%;
+    }
+  }
+
+  @media screen and (max-width: 1080px) and (min-width: 415px) {
+    .nav,.logo {
+      font-size: 0.8em;
+    }
+  }
+
+  @media screen and (max-width: 983px) and (min-width: 415px) {
+    .logo {
+      margin-left: 2em;
+    }
+
+    .nav {
+      margin-right: 1%;
+    }
+  }
+
+  @media screen and (max-width: 926px) and (min-width: 415px) {
+    .logo {
+      margin-left: auto;
+    }
+  }
+
+  @media screen and (max-width: 900px) and (min-width: 415px) {
+    .logo {
+      width: 100%;
+      margin: 30px 30%;
+      float:none;
+      display:inline-block;
+    }
+
+    .nav {
+      float: none !important;
+      margin:0 13em;
+      /* display: block; */
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 414px) { /* 375px iPhone x - 414px iPhone 6-8 plus */
+    .nav {
+      display: none;
+    }
+
+    .logo {
+      margin-left: 2em;
+  }
+
+    .logo-text {
+      font-size: 1.2em;
+    }
+
+    .hero-logo {
+      width: 48px;
+      height:48px;
+      vertical-align: middle;
     }
   }
