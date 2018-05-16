@@ -342,7 +342,7 @@ a:hover {
         /* Contact Col 1 */
 
 .contact-1 {
-  margin-left: 150px;
+  margin-left: 80px;
   margin-top: 8%;
   color: white;
 }
@@ -442,7 +442,7 @@ a:hover {
 
     .contact-4 {
       margin-top: 8.5%;
-      margin-left: -10%;
+      margin-left: -5%;
     }
 
     .contact-contact-hr {
@@ -514,9 +514,6 @@ a:hover {
       font-style: oblique;
     }
 
-    @media screen and (max-width: 414px) {  /* 375px iPhone X - 414px iPhone 6-8 plus */
-
-  }
 
   @media screen and (max-width: 1250px) and (min-width: 415px) {
     .nav {
@@ -569,6 +566,40 @@ a:hover {
 
     .text-overlay {
       width: 90%;
+    }
+
+    #contact {
+    }
+
+    .contact-1 {
+      margin-left: 25px;
+      margin-top: 70px;
+      padding-right: 30px;
+      width: 100%;
+    }
+
+    .contact-logo {
+      width: 40px;
+      height: 40px;
+    }
+
+    .contact-4 {
+      margin: 8.5% 55px;
+    }
+
+    .credit {
+      font-size: .95em;
+    }
+
+    .copyright {
+      float: left;
+      padding-top: 0.8%;
+      margin: 0;
+    }
+
+    .developer {
+      margin-right: 0;
+      padding-top: 0.6%;
     }
   }
 
@@ -803,56 +834,58 @@ a:hover {
     }
 
     #contact {
-      font-size: 0.7em;
+      font-size: 0.8em;
     }
 
     .contact-1 {
-      margin-left: 35px;
+      margin-left: 20px;
       margin-top: 50px;
+      padding-right: 25px;
     }
 
     .contact-logo {
-      width: 20px;
-      height: 20px;
-    }
-
-    .contact-2 {
-      margin: 8.5% 25%;
-    }
-
-    .contact-3 {
-      margin: 0 25%;
+      width: 40px;
+      height: 40px;
     }
 
     .contact-4 {
-      margin: 8.5% 25%;
-    }
-
-    .quick-links-ul {
-      margin-left: -18%;
-    }
-
-    .linkuri-utile-ul {
-      margin-left: -18%;
-    }
-
-    .contact-contact-ul {
-      margin-left: -9%;
+      margin: 8.5% 8%;
     }
 
     .credit {
-      font-size: 1
+      font-size: 1em;
     }
 
     .copyright {
       float: left;
-      padding-top: 3%;
+      padding-top: 1.5%;
       margin: 0;
     }
 
     .developer {
       margin-right: 0;
-      padding-top: 1.5%;
+      padding-top: 0.8%;
+    }
+  }
+
+  @media screen and (max-width: 575px) and (min-width: 415px) {
+    .contact-2 {
+      max-width: 230px;
+    }
+
+    .contact-3 {
+      max-width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 455px) and (min-width: 415px) {
+    .contact-2 {
+      max-width: 200px;
+      margin-left: -8px;
+    }
+
+    .contact-3 {
+      max-width: 210px;
     }
   }
 
