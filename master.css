@@ -537,6 +537,15 @@ a:hover {
     .text-overlay {
       width: 70%;
     }
+
+    #gallery .container {
+      width: 100% !important;
+    }
+
+    #gallery .container .row img {
+      height:180px;
+      width: 220px;
+    }
   }
 
   @media screen and (max-width: 1080px) and (min-width: 415px) {
@@ -594,6 +603,18 @@ a:hover {
     .nav {
       display: none;
     }
+
+    #gallery .row .col-sm-4 img {
+      padding-top: 20px;
+      width: 99%;
+      height: 99%;
+      display: block;
+      margin: 0 auto !important;
+    }
+
+    #gallery {
+      margin-bottom: 40px;
+    }
   }
 
   @media screen and (max-width: 710px) and (min-width: 415px) {
@@ -618,6 +639,18 @@ a:hover {
 
     .text-overlay {
       width: 90%;
+    }
+
+    #gallery .row .col-sm-4 img {
+      padding-top: 20px;
+      width: 99%;
+      height: 99%;
+      display: block;
+      margin: 0 auto !important;
+    }
+
+    #gallery {
+      margin-bottom: 40px;
     }
   }
 
