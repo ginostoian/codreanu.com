@@ -631,6 +631,10 @@ a:hover {
     .text-overlay {
       width: 90%;
     }
+
+    .prices-p {
+      padding-right: 25px;
+    }
   }
 
   @media screen and (max-width: 776px) {
@@ -984,6 +988,7 @@ a:hover {
 
     .prices-p {
       font-size: 0.8em;
+      padding-right: 10px;
     }
 
     .prices-info-p {
